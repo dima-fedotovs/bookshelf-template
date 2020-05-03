@@ -4,6 +4,8 @@
 
 This is a template to start your own Java EE project. It includes minimal configuration and essential functionality:
 * 3 user roles: USER, MANAGER and ADMIN
+  * ADMIN inherits rights of MANAGER and USER
+  * MANAGER inherits rights of USER
 * login page
 * registration page (new users go to USER role)
 * logout action
